@@ -3,7 +3,7 @@ useDefault = true
 
 [[allowlists]]
 description = "NVIDIA public RPM signing-key fingerprint"
-regexTarget = "match"
+regexTarget = "line"
 regexes = [
   '''610C7B14E068A878070DA4E99CD0A493D42D0685''',
 ]

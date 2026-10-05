@@ -1,0 +1,2 @@
+# NVIDIA's documented public RPM signing-key fingerprint, not a credential.
+b4f2e4f9848a9839122b0c14d8a0c7cb661f578a:scripts/build-driver-repo.sh:generic-api-key:15
