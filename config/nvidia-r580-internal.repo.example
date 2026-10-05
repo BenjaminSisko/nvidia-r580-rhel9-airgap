@@ -1,0 +1,22 @@
+[nvidia-r580-internal]
+name=Internal NVIDIA R580 Open-DKMS driver repository
+baseurl=https://repo.example.mil/repos/nvidia-r580/drivers/
+enabled=1
+gpgcheck=1
+repo_gpgcheck=0
+gpgkey=file:///etc/pki/rpm-gpg/NVIDIA-GPG-KEY-D42D0685.pub
+sslverify=1
+# If modular filtering prevents an explicitly reviewed package from resolving,
+# uncomment only under an approved change and record the reason.
+# module_hotfixes=1
+
+[nvidia-r580-os-deps]
+name=Offline RHEL 9.8 kernel and DKMS dependency repository
+baseurl=https://repo.example.mil/repos/nvidia-r580/os-deps/
+enabled=1
+gpgcheck=1
+repo_gpgcheck=0
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-redhat-release,file:///etc/pki/rpm-gpg/RPM-GPG-KEY-EPEL-9
+# These are public signing keys carried in repo-bundle/keys/. Never copy Red
+# Hat subscription certificates or client keys to the air-gapped system.
+sslverify=1

@@ -1,0 +1,11 @@
+/dist/
+*.iso
+*.rpm
+*.tar
+*.tar.gz
+*.sha256
+*.log
+__pycache__/
+*.pyc
+.DS_Store
+manual-downloads/
